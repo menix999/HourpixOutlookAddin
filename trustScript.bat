@@ -14,8 +14,6 @@ if %errorlevel% neq 0 (
 rem Dodanie subdomeny do zaufanych (wartość 2 oznacza zaufaną witrynę)
 reg add "%registryKey%" /v "*" /t REG_DWORD /d 2 /f
 
-echo Subdomena https://*.menix999.github.io została dodana do zaufanych witryn.
-pause
-
+rem Skrypt zakończył działanie, automatycznie się zamyka
 endlocal
 exit /b
