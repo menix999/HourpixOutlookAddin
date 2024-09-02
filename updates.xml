@@ -1,0 +1,19 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:extension:hourpixfirefoxaddon@codeagency.pl">
+    <em:updates>
+      <em:update>
+        <em:version>1.0.1</em:version>
+        <em:targetApplication>
+          <Description>
+            <em:id>{hourpixfirefoxaddon@codeagency.pl}</em:id>
+            <em:minVersion>42.0</em:minVersion>
+            <em:maxVersion>99.0</em:maxVersion>
+          </Description>
+        </em:targetApplication>
+        <em:updateLink>https://menix999.github.io/HourpixOutlookAddin/firefoxExtension2.xpi</em:updateLink>
+      </em:update>
+    </em:updates>
+  </Description>
+</RDF>
+
